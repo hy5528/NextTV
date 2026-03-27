@@ -7,7 +7,7 @@ import { MaterialSymbolsStarRounded } from "@/components/icons";
 import { useSettingsStore } from "@/store/useSettingsStore";
 import { useSearchScrollStore } from "@/store/useSearchScrollStore";
 
-export function MovieCard({ movie }) {
+export function MovieCard({ movie, showSpeedTest = true }) {
   const router = useRouter();
   const doubanImageProxy = useSettingsStore((state) => state.doubanImageProxy);
   const clearScrollPosition = useSearchScrollStore((state) => state.clearScrollPosition);
@@ -89,7 +89,7 @@ export function MovieCard({ movie }) {
             </a>
           </div>
         )}
-        {movie.source && movie.source_url && (
+        {showSpeedTest && movie.source && movie.source_url && (
           <SpeedTestBadge
             videoId={movie.id}
             sourceKey={movie.source}

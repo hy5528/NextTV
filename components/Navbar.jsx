@@ -134,9 +134,9 @@ export function Navbar() {
             <Image
               src="https://tncache1-f1.v3mh.com/image/2026/01/14/67727e3ade57c7062ef81a16d4f711a0.png"
               alt="NextTV"
-              width={20}
-              height={20}
-              className="w-5 h-5 object-contain"
+              width={24}
+              height={24}
+              className="w-6 h-6 object-contain"
             />
           </div>
           <div className="flex flex-col justify-center h-full">

@@ -12,10 +12,10 @@
 
 <div align="center">
 
-![Next.js](https://img.shields.io/badge/Next.js-16.1.1-000?logo=nextdotjs)
-![React](https://img.shields.io/badge/React-19.2.3-61dafb?logo=react)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4.1.18-38bdf8?logo=tailwindcss)
-![ArtPlayer](https://img.shields.io/badge/ArtPlayer-5.3.0-ff6b6b)
+![Next.js](https://img.shields.io/badge/Next.js-16.2.1-000?logo=nextdotjs)
+![React](https://img.shields.io/badge/React-19.2.4-61dafb?logo=react)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4.2.2-38bdf8?logo=tailwindcss)
+![ArtPlayer](https://img.shields.io/badge/ArtPlayer-5.4.0-ff6b6b)
 ![HLS.js](https://img.shields.io/badge/HLS.js-1.6.15-ec407a)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Docker Ready](https://img.shields.io/badge/Docker-ready-blue?logo=docker)
@@ -41,6 +41,7 @@
 - ⌨️ **快捷键支持** - 丰富的键盘快捷键，提升观看体验
 - 🔔 **首页剧集更新提醒** - 首页继续观看区域展示剧集更新提醒
 - 🔗 **直链播放** - 支持直链播放(尝试使用openlist的链接播放高清视频)，支持 FLV、TS、MP4 等多种格式
+- 🔗 **视频源探索** - 直接探索视频源内容
 
 ---
 
@@ -68,15 +69,15 @@
 
 ### 核心框架
 
-- **Next.js** 16.1.1 - React 服务端渲染框架
-- **React** 19.2.3 - 用户界面构建库
+- **Next.js** 16.2.1 - React 服务端渲染框架
+- **React** 19.2.4 - 用户界面构建库
 - **Tailwind CSS** 4.1.18 - 现代化 CSS 框架
 
 ### 播放器相关
 
-- **Artplayer** 5.3.0 - 功能丰富的 HTML5 视频播放器
+- **Artplayer** 5.4.0 - 功能丰富的 HTML5 视频播放器
 - **HLS.js** 1.6.15 - HTTP Live Streaming 支持
-- **artplayer-plugin-danmuku** 5.2.0 - 弹幕插件
+- **artplayer-plugin-danmuku** 5.3.0 - 弹幕插件
 
 ### 状态管理
 
