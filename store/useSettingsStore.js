@@ -15,8 +15,8 @@ export const useSettingsStore = create(
       skipConfig: {enable: false, intro_time: 0, outro_time: 0},
 
       // 豆瓣配置
-      doubanProxy: "https://movie.douban.cmliussss.com",
-      doubanImageProxy: "img.doubanio.cmliussss.com",
+      doubanProxy: "https://movie.douban.com",
+      doubanImageProxy: "img.doubanio.com",
 
       // 设置去广告开关
       setBlockAdEnabled: (enabled) => set({blockAdEnabled: enabled}),
