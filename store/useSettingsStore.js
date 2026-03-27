@@ -14,7 +14,7 @@ export const useSettingsStore = create(
       blockAdEnabled: false,
       skipConfig: {enable: false, intro_time: 0, outro_time: 0},
 
-      // 豆瓣配置
+      // 豆瓣配置---
       doubanProxy: "https://movie.douban.com",
       doubanImageProxy: "img.doubanio.com",
 
