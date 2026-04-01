@@ -26,6 +26,7 @@
 
 ## 特性
 
+- 🔒 **密码登录** - 支持密码登录
 - 🎬 **多源视频搜索** - 支持自定义多个视频源 API，聚合搜索电影和电视剧
 - 🎬 **预测速** - 支持自定义多个视频源 API，聚合搜索电影和电视剧
 - 🎥 **高级播放器** - 基于 Artplayer，支持 HLS/M3U8 流媒体播放
@@ -101,6 +102,10 @@ cd NextTV
 
 # 安装依赖
 bun install
+
+# 创建.env.local文件并写入以下内容
+SESSION_SECRET=<your secret>
+PASSWORD=<your password>
 
 # 启动开发服务器
 bun dev
@@ -259,15 +264,21 @@ bun run build
 
 ## 部署方案
 
-### 1. 使用 Vercel 部署
+### 1. 使用 Vercel 部署（推荐）
 
 Fork 项目后，点击 Vercel 按钮即可部署。
+需要设置`SESSION_SECRET`和`PASSWORD`环境变量。
+你可以使用[该网站](https://randomkeygen.com/secret-key)生成`SESSION_SECRET`。
+密码按照你需要设置的设置即可
 
 ### 2. 使用 EdgeOne 部署
 
-Fork 项目后，进入 EdgeOne pages 即可部署。
+添加密码登录功能后不兼容了，无法使用了
 
 ### 3. 其他支持 Next.js 的云函数都可以尝试
+需要设置`SESSION_SECRET`和`PASSWORD`环境变量。
+你可以使用[该网站](https://randomkeygen.com/secret-key)生成`SESSION_SECRET`。
+密码按照你需要设置的设置即可
 
 ## 许可证
 
