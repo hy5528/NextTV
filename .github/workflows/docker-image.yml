@@ -32,8 +32,8 @@ jobs:
           BRANCH=$(echo ${{ github.ref_name }} | sed 's/[^a-zA-Z0-9._-]/-/g')
 
           # 生成多个标签
-          TAGS="ghcr.io/seqcrafter/nexttv:latest"
-          TAGS="${TAGS},ghcr.io/seqcrafter/nexttv:${BRANCH}-${TIMESTAMP}"
+          TAGS="ghcr.io/hy5528/nexttv:latest"
+          TAGS="${TAGS},ghcr.io/hy5528/nexttv:${BRANCH}-${TIMESTAMP}"
 
           echo "tags=${TAGS}" >> $GITHUB_OUTPUT
           echo "Generated tags: ${TAGS}"
